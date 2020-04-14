@@ -8,3 +8,13 @@ C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\Exercicio4\obj\Debu
 C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\Exercicio4\obj\Debug\Exercicio4.csproj.CoreCompileInputs.cache
 C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\Exercicio4\obj\Debug\Exercicio4.exe
 C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\Exercicio4\obj\Debug\Exercicio4.pdb
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\bin\Debug\Exercicio4.exe.config
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\bin\Debug\Exercicio4.exe
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\bin\Debug\Exercicio4.pdb
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.csprojAssemblyReference.cache
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.Form1.resources
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.Properties.Resources.resources
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.csproj.GenerateResource.cache
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.csproj.CoreCompileInputs.cache
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.exe
+C:\Users\joilt\source\repos\Exercicio4ValendoNota\Exercicio4\obj\Debug\Exercicio4.pdb
