@@ -1,6 +1,6 @@
 ﻿namespace Exercicio4
 {
-    partial class Form1
+    partial class Form_Usuario
     {
         /// <summary>
         /// Variável de designer necessária.
@@ -28,91 +28,118 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.components = new System.ComponentModel.Container();
+            this.textBox_Usuario = new System.Windows.Forms.TextBox();
+            this.textBox_Senha = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.button_Sair = new System.Windows.Forms.Button();
+            this.button_Acessar = new System.Windows.Forms.Button();
+            this.toolTip_Usuario = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
-            // textBox1
+            // textBox_Usuario
             // 
-            this.textBox1.AccessibleDescription = "";
-            this.textBox1.AccessibleName = "";
-            this.textBox1.AccessibleRole = System.Windows.Forms.AccessibleRole.StaticText;
-            this.textBox1.Location = new System.Drawing.Point(317, 114);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(205, 20);
-            this.textBox1.TabIndex = 0;
+            this.textBox_Usuario.AccessibleDescription = "";
+            this.textBox_Usuario.AccessibleName = "";
+            this.textBox_Usuario.AccessibleRole = System.Windows.Forms.AccessibleRole.StaticText;
+            this.textBox_Usuario.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox_Usuario.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.textBox_Usuario.Location = new System.Drawing.Point(126, 17);
+            this.textBox_Usuario.Name = "textBox_Usuario";
+            this.textBox_Usuario.Size = new System.Drawing.Size(205, 20);
+            this.textBox_Usuario.TabIndex = 0;
+            this.textBox_Usuario.Text = "Informe seu nome de usuário";
+            this.toolTip_Usuario.SetToolTip(this.textBox_Usuario, "Nome do usuário");
+            this.textBox_Usuario.Enter += new System.EventHandler(this.textBox_Usuario_Enter);
+            this.textBox_Usuario.Leave += new System.EventHandler(this.textBox_Usuario_Leave);
             // 
-            // textBox2
+            // textBox_Senha
             // 
-            this.textBox2.AccessibleDescription = "";
-            this.textBox2.Location = new System.Drawing.Point(317, 185);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(205, 20);
-            this.textBox2.TabIndex = 1;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textBox_Senha.AccessibleDescription = "";
+            this.textBox_Senha.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.textBox_Senha.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.textBox_Senha.Location = new System.Drawing.Point(126, 55);
+            this.textBox_Senha.Name = "textBox_Senha";
+            this.textBox_Senha.Size = new System.Drawing.Size(205, 20);
+            this.textBox_Senha.TabIndex = 1;
+            this.textBox_Senha.Text = "Informe sua senha";
+            this.toolTip_Usuario.SetToolTip(this.textBox_Senha, "Senha");
+            this.textBox_Senha.Enter += new System.EventHandler(this.textBox_Senha_Enter);
+            this.textBox_Senha.Leave += new System.EventHandler(this.textBox_Senha_Leave);
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(216, 114);
+            this.label1.Location = new System.Drawing.Point(25, 17);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(64, 20);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Usuario";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "Usuário";
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(216, 183);
+            this.label2.Location = new System.Drawing.Point(25, 53);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(56, 20);
             this.label2.TabIndex = 3;
             this.label2.Text = "Senha";
             // 
-            // button1
+            // button_Sair
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button1.AutoSize = true;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(317, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 27);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Entra";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button_Sair.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button_Sair.AutoSize = true;
+            this.button_Sair.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Sair.Image = global::Exercicio4.Properties.Resources.sair2;
+            this.button_Sair.Location = new System.Drawing.Point(232, 93);
+            this.button_Sair.Name = "button_Sair";
+            this.button_Sair.Size = new System.Drawing.Size(99, 27);
+            this.button_Sair.TabIndex = 5;
+            this.button_Sair.Text = "Sair";
+            this.button_Sair.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_Sair.UseVisualStyleBackColor = true;
+            this.button_Sair.Click += new System.EventHandler(this.button_Sair_Click);
             // 
-            // button2
+            // button_Acessar
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.button2.AutoSize = true;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(435, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 27);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Sair";
-            this.button2.UseVisualStyleBackColor = true;
+            this.button_Acessar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.button_Acessar.AutoSize = true;
+            this.button_Acessar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_Acessar.Image = global::Exercicio4.Properties.Resources.chave;
+            this.button_Acessar.Location = new System.Drawing.Point(126, 93);
+            this.button_Acessar.Name = "button_Acessar";
+            this.button_Acessar.Size = new System.Drawing.Size(100, 27);
+            this.button_Acessar.TabIndex = 4;
+            this.button_Acessar.Text = "Acessar";
+            this.button_Acessar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.button_Acessar.UseVisualStyleBackColor = true;
+            this.button_Acessar.Click += new System.EventHandler(this.button_Acessar_Click);
             // 
-            // Form1
+            // Form_Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.ClientSize = new System.Drawing.Size(387, 140);
+            this.Controls.Add(this.button_Sair);
+            this.Controls.Add(this.button_Acessar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Formulario";
+            this.Controls.Add(this.textBox_Senha);
+            this.Controls.Add(this.textBox_Usuario);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.KeyPreview = true;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
+            this.Name = "Form_Usuario";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Identificação do Usuário";
+            this.Load += new System.EventHandler(this.Form_Usuario_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form_Usuario_KeyDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,12 +147,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox_Usuario;
+        private System.Windows.Forms.TextBox textBox_Senha;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button_Acessar;
+        private System.Windows.Forms.Button button_Sair;
+        private System.Windows.Forms.ToolTip toolTip_Usuario;
     }
 }
 
