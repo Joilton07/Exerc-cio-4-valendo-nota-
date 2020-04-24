@@ -19,7 +19,23 @@ namespace Exercicio4
 
         private void button_Acessar_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Verificar validade do usuário e senha");
+            if (textBox_Usuario.Text == "admin")
+            {
+                if (textBox_Senha.Text == "123456")
+                {
+                    MessageBox.Show("Parabéns! Acesso liberado.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }
+                else
+                {
+                    textBox_Senha.Focus();
+                    MessageBox.Show("Senha incorreta. Tente: 123456", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
+            }
+            else
+            {
+                textBox_Usuario.Focus();
+                MessageBox.Show("Usuário inválido. Tente: admin", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
 
         private void button_Sair_Click(object sender, EventArgs e) => Close();
